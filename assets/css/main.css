@@ -38,6 +38,7 @@ a {
 }
 
 a:hover {
+  color: #888;
   text-decoration: none;
 }
 
@@ -406,8 +407,55 @@ hr {
   transition: all 0.2s linear;
 }
 
+.rounded {
+  border-width: 20px;
+}
+
+.bg-black {
+  background-color: black;
+  border-radius: 20px;
+  padding: 50px 30px;
+}
+
+.bg-black .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-black .col-sm-4 {
+  flex-basis: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bg-black .col-sm-4:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -15px;
+  bottom: 0;
+  width: 1px;
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+  .bg-black .col-sm-4 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .bg-black .col-sm-4:not(:last-child)::after {
+    display: none;
+  }
+}
+
 #features .box-item .icon i {
-  color: #F63854;
+  color: #fff;
   font-size: 30px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -536,6 +584,8 @@ margin-bottom: 10px;
 .about-area img {
   border-radius: 4px;
 }
+
+.intro-img {}
 
 .about-area .content {
   margin-top: 15px;
