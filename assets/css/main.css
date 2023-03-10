@@ -260,7 +260,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #05508a;
+  background: #333;
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -1402,7 +1402,7 @@ textarea {
 }
 
 #copyright p a {
-  color: #05508a;
+  color: #333;
 }
 
 .social-icon a {
