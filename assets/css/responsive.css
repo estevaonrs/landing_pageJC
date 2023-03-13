@@ -158,11 +158,12 @@
   }
 
   .navbar-brand img {
-    margin: 0px 0px 0px 0px;
+    margin-top: 15px;
+    margin-left: 15px;
   }
 
   .top-nav-collapse .navbar-brand img {
-    margin-top: 0px;
+    margin-top: 15px;
   }
 
   .intro-img {
@@ -230,6 +231,10 @@
 
   .member {
     width: 100%;
+  }
+
+  .footer-logo {
+    width: 250px;
   }
 
   .footer-right-contact .single-contact {
