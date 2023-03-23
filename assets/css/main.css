@@ -94,6 +94,7 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
   font-weight: 500;
   position: relative;
+  white-space: normal;
 }
 
 .section-title3 {
@@ -654,7 +655,39 @@ margin-bottom: 10px;
 }
 
 .top-nav-collapse .navbar-brand img {
-  width: 80%;
+  width: 60%;
+}
+
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00C853;
+  color: #fff;
+  padding: 1px;
+  border-radius: 50px;
+  z-index: 9999;
+  line-height: 50px;
+  /* ajuste o valor para a altura do botão */
+  margin-right: 5px;
+}
+
+.p2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #fff;
+
+}
+
+.whatsapp i {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
@@ -682,7 +715,7 @@ margin-bottom: 10px;
 }
 
 .navbar-brand img {
-  width: 80%;
+  width: 60%;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
@@ -788,16 +821,18 @@ margin-bottom: 10px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 860px;
+  min-height: 500px;
   position: relative;
   overflow: hidden;
-  padding: 250px 0 01px;
+  padding: 150px 0 01px;
+  white-space: nowrap;
 }
+
 
 #hero-area .contents .head-title {
   color: #333;
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 800;
   line-height: 60px;
   margin-bottom: 10px;
 }
@@ -837,6 +872,11 @@ margin-bottom: 10px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.custom-class {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .team .member img {
