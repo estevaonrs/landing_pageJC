@@ -133,6 +133,12 @@ a:not([href]):not([tabindex]) {
   padding: 0px;
 }
 
+.intro-img {
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .bg-gray {
   background-color: #fff;
 
@@ -349,13 +355,19 @@ a.back-to-top:focus {
 }
 
 .section-padding3 {
-  padding: 60px 0;
+  padding: 100px 0;
   background-image: url(../img/hero-bg4.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
-
+.section-padding4 {
+  padding: 60px 0;
+  background-image: url(../img/bg1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 hr {
@@ -621,8 +633,6 @@ margin-bottom: 10px;
   border-radius: 4px;
 }
 
-.intro-img {}
-
 .about-area .content {
   margin-top: 15px;
 }
@@ -821,15 +831,16 @@ margin-bottom: 10px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 200px;
   position: relative;
   overflow: hidden;
-  padding: 150px 0 01px;
+  padding: 100px 0 01px;
   white-space: nowrap;
 }
 
 
 #hero-area .contents .head-title {
+  margin-top: 150px;
   color: #333;
   font-size: 50px;
   font-weight: 800;
@@ -873,43 +884,6 @@ margin-bottom: 10px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#carouselSection {
-  padding: 0px;
-
-}
-
-#carouselSection .carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#carouselSection .carousel-caption {
-  bottom: 220px;
-}
-
-#carouselSection .carousel-caption h3 {
-  font-size: 4.2em;
-  letter-spacing: 1px;
-  line-height: 10em;
-  font-weight: bold;
-  margin: 0;
-  color: #fff;
-}
-
-#carouselSection .carousel-caption p {
-  width: 70%;
-  font-size: 1.5em;
-  line-height: 1.2em;
-  margin: auto;
-  margin-top: 20px;
-}
-
 
 .custom-class {
   margin: 0 auto;
