@@ -874,10 +874,49 @@ margin-bottom: 10px;
   background-size: cover;
 }
 
+#carouselSection {
+  padding: 0px;
+
+}
+
+#carouselSection .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#carouselSection .carousel-caption {
+  bottom: 220px;
+}
+
+#carouselSection .carousel-caption h3 {
+  font-size: 4.2em;
+  letter-spacing: 1px;
+  line-height: 10em;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+#carouselSection .carousel-caption p {
+  width: 70%;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
 .custom-class {
   margin: 0 auto;
   text-align: center;
 }
+
+
 
 .team .member img {
   max-width: 60%;
