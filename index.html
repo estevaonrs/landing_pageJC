@@ -13,7 +13,14 @@
     <!-- Owl carousel -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
 
+    <!--====== Tiny Slider css ======-->
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+
+    <!--====== gLightBox css ======-->
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <!-- Animate -->
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Main Style -->
@@ -43,10 +50,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-                        <div class="header-button">
-                            <a href="https://wa.me/5585986552515" class="btn btn-common2"><i
-                                    class="fa-brands fa-whatsapp"></i> Agendar consulta</i></a>
-                        </div>
+
                         <li class="nav-item active">
                             <a class="nav-link" href="#hero-area">
                                 Início
@@ -78,377 +82,228 @@
         </nav>
         <!-- Navbar End -->
 
-        <!-- Hero Area Start -->
-        <div id="hero-area" class="hero-area-bg">
+        <div id="home" class="slider-area">
+            <div class="bd-example">
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselOne" data-slide-to="1"></li>
+                        <li data-target="#carouselOne" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg_cover active"
+                            style="background-size: cover; background-repeat: no-repeat; background-image: url(assets/img/bg1.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title"><a href="" class="navbar-brand2"><img
+                                                        src="assets/img/logo6.png" alt=""></a></h2>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover"
+                            style="background-size: cover; background-image: url(assets/img/bg2.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Precisando de ajuda?</h2>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover"
+                            style="background-size: cover; background-image: url(assets/img/bg3.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+                                            <h2 class="carousel-title">Entre em contato</h2>
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+                    </div> <!-- carousel-inner -->
+
+                    <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
+                        <i class="lni-arrow-left-circle"></i>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
+                        <i class="lni-arrow-right-circle"></i>
+                    </a>
+                </div> <!-- carousel -->
+            </div> <!-- bd-example -->
+        </div>
+
+        </section>
+
+        <!--====== ABOUT FIVE PART START ======-->
+
+        <section class="about-area about-five">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                        <div class="contents">
-                            <h2 class="head-title">Jéssica Carvalho Advocacia</h2>
-
-                            <div class="header-button">
-                                <a href="https://wa.me/5585986552515" class="btn btn-common"><i
-                                        class="fa-brands fa-whatsapp"></i> Agendar consulta</i></a>
-                            </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="about-image-five">
+                            <svg class="shape5" width="106" height="134" viewBox="0 0 106 134" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="1.66654" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="1.66654" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.333" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.333" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.333" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.333" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.333" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="16.333" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="30.9998" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6665" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="30.9998" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6665" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="30.9998" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6665" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="30.9998" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6665" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="31" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6668" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="31" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6668" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="31" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6668" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="31" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6668" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="31" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6668" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="31" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="74.6668" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="45.6665" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="89.3333" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="1.66679" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="16.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="31.0001" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="45.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.333" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="60.3335" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.333" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="88.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.333" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="117.667" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.333" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="74.6668" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.333" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="103" r="1.66667" fill="#DADADA" />
+                                <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
+                                <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
+                            </svg>
+                            <img src="assets/img/about/about-img1.jpg" alt="about" />
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                        <div class="intro-img">
-                            <img class="img-fluid" src="assets/img/advogada5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Hero Area End -->
-
-    </header>
-    <!-- Header Area wrapper End -->
-
-    <!-- Services Section Start -->
-    <section id="services" class="about-area section-padding4 bg-gray">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">SOBRE O ESCRITÓRIO</h2>
-                <div class="shape2 wow fadeInDown" data-wow-delay="0.3s">
-                </div>
-            </div>
-            <h2 style="font-size: 34px; font-style: alkatra; margin-top: 0; margin-bottom: 10px; color: white;">
-                <br><br>Conceituado
-                escritório de Advocacia com atendimento diferenciado, com prestação de serviços com
-                qualidade e eficiência. Áreas de atuação: Cível, Família, Sucessões, Trabalho, Empresarial,
-                Previdenciário. DPVAT e Criminal. Entre em contato conosco pelo Whatsaap (85) 99904-1550
-            </h2>
-        </div>
-        </div>
-    </section>
-
-    <section id="services2" class="about-area section-padding3 bg-gray">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">POR QUE VOCÊ DEVE NOS ESCOLHER?</h2>
-                <div class="shape2 wow fadeInDown" data-wow-delay="0.3s">
-
-                </div>
-            </div>
-            <div class="row">
-                <!-- Services item -->
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item2 wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="services-content">
-                            <li class="section-title4"> EXPERIÊNCIA COMPROVADA</li>
-                        </div>
-                    </div>
-                </div>
-                <!-- Services item -->
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item2 wow fadeInRight" data-wow-delay="0.6s">
-                        <div class="services-content">
-                            <li class="section-title4">ATENDIMENTO PERSONALIZADO</li>
-                        </div>
-                    </div>
-                </div>
-                <!-- Services item -->
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
-                        <div class="services-content">
-                            <li class="section-title4">COMUNICAÇÃO CLARA E
-                                ABERTA</li>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
-                        <div class="services-content">
-                            <li class="section-title4">+10 ANOS DE EXPERIÊNCIA</li>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
-                        <div class="services-content">
-                            <li class="section-title4">+500 CASOS ATENDIDOS</li>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
-                        <div class="services-content">
-                            <li class="section-title4">COMUNICAÇÃO IMEDIATA
-                            </li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Services Section End -->
-
-
-    <!-- Features Section Start -->
-    <section id="features" class="section-padding">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">NOSSAS ESPECIALIDADES</h2>
-                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <div class="content-left">
-                        <div class="box-item wow fadeInLeft" data-wow-delay="0.3s">
-                            <span class="icon">
-                                <i class="fa-solid fa-scale-balanced"></i>
-                            </span>
-                            <div class="text">
-                                <h4 style="text-align: center;">Direito Cível</h4>
-                                <p style="text-align: center;">Propriedade, patrimônio, herança, testamento,
-                                    responsabilidade civil, entre outros.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box-item wow fadeInLeft" data-wow-delay="0.6s">
-                            <span class="icon">
-                                <i class="fa-solid fa-house-chimney"></i>
-                            </span>
-                            <div class="text">
-                                <h4 style="text-align: center;">Direito de Familía</h4>
-                                <p style="text-align: center;">Divórcio, guarda, pensão alimentícia, partilha de bens e
-                                    outros.</p>
-                            </div>
-                        </div>
-                        <div class="box-item wow fadeInLeft" data-wow-delay="0.9s">
-                            <span class="icon">
-                                <i class="fa-solid fa-store"></i>
-                            </span>
-                            <div class="text">
-                                <h4 style="text-align: center;">Direito do Consumidor</h4>
-                                <p style="text-align: center;">Contratos de consumo, práticas abusivas, publicidade
-                                    enganosa, cobranças indevidas, entre outros.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
-                        <img src="assets/img/Capturar.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <div class="content-right">
-                        <div class="box-item wow fadeInRight" data-wow-delay="0.3s">
-                            <span class="icon">
-                                <i class="fa-solid fa-building"></i>
-                            </span>
-                            <div class="text">
-                                <h4 style="text-align: center;">Direito Empresarial</h4>
-                                <p style="text-align: center;">Constituição de empresas, fusões e aquisições, contratos
-                                    empresariais, propriedade intelectual.</p>
-                            </div>
-                        </div>
-                        <div class="box-item wow fadeInRight" data-wow-delay="0.6s">
-                            <span class="icon">
-                                <i class="fa-solid fa-suitcase"></i>
-                            </span>
-                            <div class="text">
-                                <h4 style="text-align: center;">Direito Trabalhista</h4>
-                                <p style="text-align: center;">Contratos de trabalho, rescisões, verbas trabalhistas,
-                                    assédio moral, entre outros.</p>
-                            </div>
-                        </div>
-                        <div class="box-item wow fadeInRight" data-wow-delay="0.9s">
-                            <span class="icon">
-                                <i class="fa-solid fa-person"></i>
-                            </span>
-                            <div class="text">
-                                <h4 style="text-align: center;">Direito Previdenciário</h4>
-                                <p style="text-align: center;">Contratos de trabalho, rescisões, verbas trabalhistas,
-                                    assédio moral, entre outros.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Features Section End -->
-    <section id="services2" class="about-area section-padding2 bg-gray">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">SOBRE MIM</h2>
-                <div class="shape2 wow fadeInDown" data-wow-delay="0.3s">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-6" style="display: flex; flex-direction: column; justify-content: center;">
-                    <h2 style="font-size: 34px; margin-top: 0; margin-bottom: 10px; color: white;"><br><br>Dra. Jéssica
-                        Carvalho
-                    </h2><br>
-                    <ul style="list-style: none; margin: 0; padding: 0;">
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Advogada há 10 anos com mais de 500 casos atendidos;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Tenho experiência na área do Direito Público e Privado;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Especialista em Direito do Trabalho e Processo do Trabalho; </li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Membro da Comissão de Direito Penitenciário e da Mulher na OAB/CE;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Tenho o Inglês como segundo idioma;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Certificada em Prática Previdenciária;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Certificada em Direito Imobiliário;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Certificada em Departamento Jurídico interno das Empresas;</li><br>
-                        <li style="font-size: 18px; margin-bottom: 5px; color: white;">
-                            - Certificada em Direito Médico e da Saúde;</li><br>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        </div>
-
-    </section>
-
-    <!-- Testimonial Section Start -->
-    <section id="testimonial" class="testimonial section-padding">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nossas Avaliações</h2>
-                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div id="testimonials" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
-                        <div class="item">
-                            <div class="testimonial-item">
-
-                                <div class="info">
-                                    <h2><a>Claudia</a></h2>
-
-                                </div>
-                                <div class="content">
-                                    <p class="description" style="text-align: justify; word-wrap: break-word;">Unica
-                                        profissional que de fato resolveu o meu caso. Já tinha
-                                        procurado outros advogados mas nenhum foi eficiente como a Doutora. Feliz e
-                                        grata por sua ajuda.
-                                    </p>
-                                    <div class="star-icon mt-3">
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
+                    <div class="col-lg-6 col-12">
+                        <div class="about-five-content">
+                            <h6 class="small-title text-lg">SOBRE O ESCRITÓRIO</h6>
+                            <h2 class="main-title fw-bold">Nosso escritório conta com a melhor experiência e expertise
+                                do
+                                mercado.</h2>
+                            <div class="about-five-tab">
+                                <nav>
+                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-who" type="button" role="tab" aria-controls="nav-who"
+                                            aria-selected="true">Quem somos</button>
+                                        <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-vision" type="button" role="tab"
+                                            aria-controls="nav-vision" aria-selected="false">Nossa visão</button>
+                                        <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-history" type="button" role="tab"
+                                            aria-controls="nav-history" aria-selected="false">Nossa história</button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-
-                                <div class="info">
-                                    <h2><a>Jenny</a></h2>
-                                </div>
-                                <div class="content">
-                                    <p class="description" style="text-align: justify; word-wrap: break-word;">
-                                        Extremamente competente, assessoria completa na necessidade
-                                        da empresa. Agradecemos pela alta performance profissional.</p>
-                                    <div class="star-icon mt-3">
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-who" role="tabpanel"
+                                        aria-labelledby="nav-who-tab">
+                                        <p2>It is a long established fact that a reader will be distracted by the
+                                            readable
+                                            content of a page
+                                            when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more-or-less normal
+                                            distribution of letters, look like readable English.</p>
+                                            <p2>There are many variations of passages of Lorem Ipsum available, but the
+                                                majority
+                                                have in some
+                                                form,
+                                                by injected humour.</p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="info">
-                                    <h2><a>Rogerio</a></h2>
-
-                                </div>
-                                <div class="content">
-                                    <p class="description" style="text-align: justify; word-wrap: break-word;">Me chamo
-                                        Rogerio e contratei os serviços da Dra. Jessica
-                                        Carvalho. Sou empresário e estamos satisfeitos com os servicos prestados para
-                                        nossa empresa.
-                                        Foi uma indicação de um amigo, também Empresario, que me apresentou. Dra.
-                                        Parabéns pela competência.</p>
-                                    <div class="star-icon mt-3">
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
+                                    <div class="tab-pane fade" id="nav-vision" role="tabpanel"
+                                        aria-labelledby="nav-vision-tab">
+                                        <p2>It is a long established fact that a reader will be distracted by the
+                                            readable
+                                            content of a page
+                                            when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more-or-less normal
+                                            distribution of letters, look like readable English.</p>
+                                            <p2>There are many variations of passages of Lorem Ipsum available, but the
+                                                majority
+                                                have in some
+                                                form,
+                                                by injected humour.</p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="info">
-                                    <h2><a>Fernanda</a></h2>
-
-                                </div>
-                                <div class="content">
-                                    <p class="description" style="text-align: justify; word-wrap: break-word;">Tive a
-                                        documentação da minha casa regulamentada. Preço justo
-                                        e atendimento de primeira.</p>
-                                    <div class="star-icon mt-3">
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="info">
-                                    <h2><a>Éverton</a></h2>
-
-                                </div>
-                                <div class="content">
-                                    <p class="description" style="text-align: justify; word-wrap: break-word;">
-                                        Contratamos o escritório através de uma indicação de um
-                                        colega empresário para atuar em causas trabalhistas e cíveis. Recomendo a Dra.
-                                        Jessica Carvalho, advogada inteligente e com uma visão excepcional.</p>
-                                    <div class="star-icon mt-3">
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item">
-                                <div class="info">
-                                    <h2><a>Marcia</a></h2>
-
-                                </div>
-                                <div class="content">
-                                    <p class="description" style="text-align: justify; word-wrap: break-word;">Solicitei
-                                        aditivos e consultas, me prestaram todas as
-                                        informações necessarias, com excelente preço. Equipe de profissionais bem
-                                        receptivos, não tive qualquer aborrecimento. Gostei muito, agradeço ao site por
-                                        ter profissionais tão comprometidos. Recomendo muito.
-                                        Procurei outros e não gostei. A dra. Jessica foi completamente atenciosa.
-                                        Profissional qualificada.</p>
-                                    <div class="star-icon mt-3">
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
-                                        <span><i class="lni-star-filled"></i></span>
+                                    <div class="tab-pane fade" id="nav-history" role="tabpanel"
+                                        aria-labelledby="nav-history-tab">
+                                        <p2>It is a long established fact that a reader will be distracted by the
+                                            readable
+                                            content of a page
+                                            when
+                                            looking at its layout. The point of using Lorem Ipsum is that it has a
+                                            more-or-less normal
+                                            distribution of letters, look like readable English.</p>
+                                            <p2>There are many variations of passages of Lorem Ipsum available, but the
+                                                majority
+                                                have in some
+                                                form,
+                                                by injected humour.</p>
                                     </div>
                                 </div>
                             </div>
@@ -456,242 +311,574 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <!-- container -->
+        </section>
 
-    <!-- Testimonial Section End -->
+        <!--====== ABOUT FIVE PART ENDS ======-->
 
-    <!-- Team Section Start -->
-    <section id="team" class="team section-padding3">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">CONHEÇA O NOSSO TIME</h2>
-                <div class="shape2 wow fadeInDown" data-wow-delay="0.3s"></div>
-            </div>
-            <div>
-                <div class="col-6 col-md-6 col-lg-4 custom-class" data-aos="zoom-in">
-                    <div class="member">
-                        <img src="assets/img/team/team-1.png" alt="">
-                        <h4>Jéssica Carvalho</h4>
-                        <span>Advogada - Sócia Proprietária</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Team Section -->
-    <!-- Team Section End -->
-
-
-
-    <!-- Pricing section Start -->
-
-    <!-- Services Section Start -->
-    <section id="services" class="section-padding">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Conheça o nosso instagram <a
-                        class="instagram" href="https://www.instagram.com/jessicacarvalhoadvocacia/"><br><i
-                            class="fa-brands fa-instagram" style="color: black;"></i></a></h2>
-                <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-            </div>
-            <div class="row">
-                <!-- Services item -->
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="services-content">
-                            <a href="https://www.instagram.com/p/CpIgWaBrC8y/?utm_source=ig_web_copy_link">
-                                <div class="team-img">
-                                    <img class="img-fluid" src="assets/img/1.png" alt="" width="80%">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="services-content">
-                            <a href="https://www.instagram.com/p/CpOHAeju4oR/?utm_source=ig_web_copy_link">
-                                <div class="team-img">
-                                    <img class="img-fluid" src="assets/img/2.jpg" alt="" width="80%">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="services-content">
-                            <a href="https://www.instagram.com/p/CpOD-LyOHIr/?utm_source=ig_web_copy_link">
-                                <div class="team-img">
-                                    <img class="img-fluid" src="assets/img/3.jpg" alt="" width="80%">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="services-content">
-                            <a href="https://www.instagram.com/p/CpOD-LyOHIr/?utm_source=ig_web_copy_link">
-                                <div class="team-img">
-                                    <img class="img-fluid" src="assets/img/4.JPG" alt="" width="80%">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="header-button">
-                <a href="https://wa.me/5585986552515" class="btn btn-common"><i class="fa-brands fa-whatsapp"></i>
-                    Agendar consulta</a>
-            </div>
-        </div>
-    </section>
-    <!-- Services Section End -->
-
-
-    <!-- Pricing Table Section End -->
-
-    <!-- Contact Section Start -->
-    <form action="https://formspree.io/f/xeqwgvnd" method="POST">
-        <section id="contact" class="section-padding3 bg-gray">
+        <section id="services2" class="about-area section-padding3 bg-gray">
             <div class="container">
                 <div class="section-header text-center">
-                    <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">Fale Conosco</h2>
-                    <div class="shape2 wow fadeInDown" data-wow-delay="0.3s"></div>
-                </div>
-                <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="col-lg-7 col-md-12 col-sm-12">
-                        <div class="contact-block">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label><input type="text" class="form-control" id="name" name="name"
-                                                placeholder="Nome" required data-error="Please enter your name"></label>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label><input type="text" placeholder="Email" id="email" class="form-control"
-                                                name="E-mail" required data-error="Please enter your email"></label>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label>
-                                            <textarea name="message" id="message" placeholder="Sua Mensagem"
-                                                class="form-control"></textarea>
-                                        </label>
+                    <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">POR QUE VOCÊ DEVE NOS ESCOLHER?</h2>
+                    <div class="shape2 wow fadeInDown" data-wow-delay="0.3s">
 
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="submit-button text-left">
-                                        <button class="btn btn-common" id="form-submit" type="submit">Enviar
-                                            Mensagem</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Services item -->
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item2 wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="services-content">
+                                <li class="section-title4"> EXPERIÊNCIA COMPROVADA</li>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-12 col-xs-12">
-                        <div class="map">
-                            <object style="border:0; height: 280px; width: 100%;"
-                                data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d351.9051119690949!2d-38.5096157102762!3d-3.733266017900045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7485ee18eb7bb%3A0x153b669de154db1e!2sR.%20Monsenhor%20Bruno%2C%201157%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060115-190!5e0!3m2!1spt-BR!2sbr!4v1678471097296!5m2!1spt-BR!2sbr"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></object>
+                    <!-- Services item -->
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item2 wow fadeInRight" data-wow-delay="0.6s">
+                            <div class="services-content">
+                                <li class="section-title4">ATENDIMENTO PERSONALIZADO</li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Services item -->
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
+                            <div class="services-content">
+                                <li class="section-title4">COMUNICAÇÃO CLARA E
+                                    ABERTA</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
+                            <div class="services-content">
+                                <li class="section-title4">+10 ANOS DE EXPERIÊNCIA</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
+                            <div class="services-content">
+                                <li class="section-title4">+500 CASOS ATENDIDOS</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item2 wow fadeInRight" data-wow-delay="0.9s">
+                            <div class="services-content">
+                                <li class="section-title4">COMUNICAÇÃO IMEDIATA
+                                </li>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </form>
+        <!-- Services Section End -->
 
-    <!-- Contact Section End -->
 
-    <!-- Footer Section Start -->
-    <footer id="footer" class="footer-area section-padding">
-        <div class="container">
+        <!-- Features Section Start -->
+        <section id="features" class="section-padding">
             <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">NOSSAS ESPECIALIDADES</h2>
+                    <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+                </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-                        <div class="widget">
-                            <h3 class="footer-logo"><img src="assets/img/logo5.png" alt="" width="100%"></h3>
-
-                            <div class="social-icon">
-                                <a class="facebook" href="https://www.facebook.com/drajessicacarvalhoadvocacia/"><i
-                                        class="fa-brands fa-facebook fa-2x"></i></a>
-                                <a class="twitter" href="https://wa.me/5585986552515"><i
-                                        class="fa-brands fa-whatsapp fa-2x"></i></a>
-                                <a class="instagram" href="https://www.instagram.com/jessicacarvalhoadvocacia/"><i
-                                        class="fa-brands fa-instagram fa-2x"></i></a>
-                                <a class="linkedin"
-                                    href="https://www.linkedin.com/in/jessica-carvalho-barbosa-44060253/?originalSubdomain=br"><i
-                                        class="fa-brands fa-linkedin-in fa-2x"></i></a>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                            <div class="box-item wow fadeInLeft" data-wow-delay="0.3s">
+                                <span class="icon">
+                                    <i class="fa-solid fa-scale-balanced"></i>
+                                </span>
+                                <div class="text">
+                                    <h4 style="text-align: center;">Direito Cível</h4>
+                                    <p style="text-align: center;">Propriedade, patrimônio, herança, testamento,
+                                        responsabilidade civil, entre outros.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box-item wow fadeInLeft" data-wow-delay="0.6s">
+                                <span class="icon">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </span>
+                                <div class="text">
+                                    <h4 style="text-align: center;">Direito de Familía</h4>
+                                    <p style="text-align: center;">Divórcio, guarda, pensão alimentícia, partilha de
+                                        bens e
+                                        outros.</p>
+                                </div>
+                            </div>
+                            <div class="box-item wow fadeInLeft" data-wow-delay="0.9s">
+                                <span class="icon">
+                                    <i class="fa-solid fa-store"></i>
+                                </span>
+                                <div class="text">
+                                    <h4 style="text-align: center;">Direito do Consumidor</h4>
+                                    <p style="text-align: center;">Contratos de consumo, práticas abusivas, publicidade
+                                        enganosa, cobranças indevidas, entre outros.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                        <h3 class="footer-titel">Contato</h3>
-                        <ul class="address">
-                            <li>
-                                <a href="#"><i class="lni-map-marker"></i> Rua Monsenhor Bruno 1157 - <br>Sala 1107</a>
-                            </li>
-                            <li>
-                                <a href="https://wa.me/5585986552515"><i class="lni-phone-handset"></i>(85)
-                                    9.8655-2515</a>
-                            </li>
-                            <li>
-                                <a href="mailto:jessicacarvalhoadv@gmail.com"><i
-                                        class="lni-envelope"></i>jessicacarvalhoadv@gmail.com</a>
-                            </li>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
+                            <img src="assets/img/Capturar.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-right">
+                            <div class="box-item wow fadeInRight" data-wow-delay="0.3s">
+                                <span class="icon">
+                                    <i class="fa-solid fa-building"></i>
+                                </span>
+                                <div class="text">
+                                    <h4 style="text-align: center;">Direito Empresarial</h4>
+                                    <p style="text-align: center;">Constituição de empresas, fusões e aquisições,
+                                        contratos
+                                        empresariais, propriedade intelectual.</p>
+                                </div>
+                            </div>
+                            <div class="box-item wow fadeInRight" data-wow-delay="0.6s">
+                                <span class="icon">
+                                    <i class="fa-solid fa-suitcase"></i>
+                                </span>
+                                <div class="text">
+                                    <h4 style="text-align: center;">Direito Trabalhista</h4>
+                                    <p style="text-align: center;">Contratos de trabalho, rescisões, verbas
+                                        trabalhistas,
+                                        assédio moral, entre outros.</p>
+                                </div>
+                            </div>
+                            <div class="box-item wow fadeInRight" data-wow-delay="0.9s">
+                                <span class="icon">
+                                    <i class="fa-solid fa-person"></i>
+                                </span>
+                                <div class="text">
+                                    <h4 style="text-align: center;">Direito Previdenciário</h4>
+                                    <p style="text-align: center;">Contratos de trabalho, rescisões, verbas
+                                        trabalhistas,
+                                        assédio moral, entre outros.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features Section End -->
+        <section id="services2" class="about-area section-padding2 bg-gray">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">SOBRE MIM</h2>
+                    <div class="shape2 wow fadeInDown" data-wow-delay="0.3s">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6"
+                        style="display: flex; flex-direction: column; justify-content: center;">
+                        <h2 style="font-size: 34px; margin-top: 0; margin-bottom: 10px; color: white;"><br><br>Dra.
+                            Jéssica
+                            Carvalho
+                        </h2><br>
+                        <ul style="list-style: none; margin: 0; padding: 0;">
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Advogada há 10 anos com mais de 500 casos atendidos;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Tenho experiência na área do Direito Público e Privado;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Especialista em Direito do Trabalho e Processo do Trabalho; </li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Membro da Comissão de Direito Penitenciário e da Mulher na OAB/CE;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Tenho o Inglês como segundo idioma;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Certificada em Prática Previdenciária;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Certificada em Direito Imobiliário;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Certificada em Departamento Jurídico interno das Empresas;</li><br>
+                            <li style="font-size: 18px; margin-bottom: 5px; color: white;">
+                                - Certificada em Direito Médico e da Saúde;</li><br>
+
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="copyright">
+            </div>
+
+        </section>
+
+        <!-- Testimonial Section Start -->
+        <section id="testimonial" class="testimonial section-padding">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="copyright-content">
-                            <p><a rel="nofollow" href="">Jéssica Carvalho Advogada</a> - Todos os
-                                Direitos
-                                Reservados
-                            </p>
-                            <p>Desenvolvidor por: <a rel="nofollow" href="">EF - Desenvolvedor Web</a>
+                <div class="section-header text-center">
+                    <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nossas Avaliações</h2>
+                    <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div id="testimonials" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
+                            <div class="item">
+                                <div class="testimonial-item">
+
+                                    <div class="info">
+                                        <h2><a>Claudia</a></h2>
+
+                                    </div>
+                                    <div class="content">
+                                        <p class="description" style="text-align: justify; word-wrap: break-word;">Unica
+                                            profissional que de fato resolveu o meu caso. Já tinha
+                                            procurado outros advogados mas nenhum foi eficiente como a Doutora. Feliz e
+                                            grata por sua ajuda.
+                                        </p>
+                                        <div class="star-icon mt-3">
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item">
+
+                                    <div class="info">
+                                        <h2><a>Jenny</a></h2>
+                                    </div>
+                                    <div class="content">
+                                        <p class="description" style="text-align: justify; word-wrap: break-word;">
+                                            Extremamente competente, assessoria completa na necessidade
+                                            da empresa. Agradecemos pela alta performance profissional.</p>
+                                        <div class="star-icon mt-3">
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item">
+                                    <div class="info">
+                                        <h2><a>Rogerio</a></h2>
+
+                                    </div>
+                                    <div class="content">
+                                        <p class="description" style="text-align: justify; word-wrap: break-word;">Me
+                                            chamo
+                                            Rogerio e contratei os serviços da Dra. Jessica
+                                            Carvalho. Sou empresário e estamos satisfeitos com os servicos prestados
+                                            para
+                                            nossa empresa.
+                                            Foi uma indicação de um amigo, também Empresario, que me apresentou. Dra.
+                                            Parabéns pela competência.</p>
+                                        <div class="star-icon mt-3">
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item">
+                                    <div class="info">
+                                        <h2><a>Fernanda</a></h2>
+
+                                    </div>
+                                    <div class="content">
+                                        <p class="description" style="text-align: justify; word-wrap: break-word;">Tive
+                                            a
+                                            documentação da minha casa regulamentada. Preço justo
+                                            e atendimento de primeira.</p>
+                                        <div class="star-icon mt-3">
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item">
+                                    <div class="info">
+                                        <h2><a>Éverton</a></h2>
+
+                                    </div>
+                                    <div class="content">
+                                        <p class="description" style="text-align: justify; word-wrap: break-word;">
+                                            Contratamos o escritório através de uma indicação de um
+                                            colega empresário para atuar em causas trabalhistas e cíveis. Recomendo a
+                                            Dra.
+                                            Jessica Carvalho, advogada inteligente e com uma visão excepcional.</p>
+                                        <div class="star-icon mt-3">
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item">
+                                    <div class="info">
+                                        <h2><a>Marcia</a></h2>
+
+                                    </div>
+                                    <div class="content">
+                                        <p class="description" style="text-align: justify; word-wrap: break-word;">
+                                            Solicitei
+                                            aditivos e consultas, me prestaram todas as
+                                            informações necessarias, com excelente preço. Equipe de profissionais bem
+                                            receptivos, não tive qualquer aborrecimento. Gostei muito, agradeço ao site
+                                            por
+                                            ter profissionais tão comprometidos. Recomendo muito.
+                                            Procurei outros e não gostei. A dra. Jessica foi completamente atenciosa.
+                                            Profissional qualificada.</p>
+                                        <div class="star-icon mt-3">
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                            <span><i class="lni-star-filled"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Go to Top Link -->
-    <a href="https://api.whatsapp.com/send?phone=5585986552515" target="_blank" class="whatsapp">
-        <i class="fab fa-whatsapp"></i>
-        <p class="p2">Entre em contato</p>
-    </a>
+        </section>
 
 
+        <!-- Services Section Start -->
+        <section id="services" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Conheça o nosso instagram <a
+                            class="instagram" href="https://www.instagram.com/jessicacarvalhoadvocacia/"><br><i
+                                class="fa-brands fa-instagram" style="color: black;"></i></a></h2>
+                    <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+                </div>
+                <div class="row">
+                    <!-- Services item -->
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="services-content">
+                                <a href="https://www.instagram.com/p/CpIgWaBrC8y/?utm_source=ig_web_copy_link">
+                                    <div class="team-img">
+                                        <img class="img-fluid" src="assets/img/1.png" alt="" width="80%">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="services-content">
+                                <a href="https://www.instagram.com/p/CpOHAeju4oR/?utm_source=ig_web_copy_link">
+                                    <div class="team-img">
+                                        <img class="img-fluid" src="assets/img/2.jpg" alt="" width="80%">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="services-content">
+                                <a href="https://www.instagram.com/p/CpOD-LyOHIr/?utm_source=ig_web_copy_link">
+                                    <div class="team-img">
+                                        <img class="img-fluid" src="assets/img/3.jpg" alt="" width="80%">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-4">
+                        <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="services-content">
+                                <a href="https://www.instagram.com/p/CpOD-LyOHIr/?utm_source=ig_web_copy_link">
+                                    <div class="team-img">
+                                        <img class="img-fluid" src="assets/img/4.JPG" alt="" width="80%">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/scrolling-nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
+                </div>
+                <div class="header-button">
+                    <a href="https://wa.me/5585986552515" class="btn btn-common"><i class="fa-brands fa-whatsapp"></i>
+                        Agendar consulta</a>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section End -->
+
+
+        <!-- Pricing Table Section End -->
+
+        <!-- Contact Section Start -->
+        <form action="https://formspree.io/f/xeqwgvnd" method="POST">
+            <section id="contact" class="section-padding3 bg-gray">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <h2 class="section-title3 wow fadeInDown" data-wow-delay="0.3s">Fale Conosco</h2>
+                        <div class="shape2 wow fadeInDown" data-wow-delay="0.3s"></div>
+                    </div>
+                    <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+                            <div class="contact-block">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label><input type="text" class="form-control" id="name" name="name"
+                                                    placeholder="Nome" required
+                                                    data-error="Please enter your name"></label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label><input type="text" placeholder="Email" id="email"
+                                                    class="form-control" name="E-mail" required
+                                                    data-error="Please enter your email"></label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>
+                                                <textarea name="message" id="message" placeholder="Sua Mensagem"
+                                                    class="form-control"></textarea>
+                                            </label>
+
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="submit-button text-left">
+                                            <button class="btn btn-common" id="form-submit" type="submit">Enviar
+                                                Mensagem</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12 col-xs-12">
+                            <div class="map">
+                                <object style="border:0; height: 280px; width: 100%;"
+                                    data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d351.9051119690949!2d-38.5096157102762!3d-3.733266017900045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7485ee18eb7bb%3A0x153b669de154db1e!2sR.%20Monsenhor%20Bruno%2C%201157%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060115-190!5e0!3m2!1spt-BR!2sbr!4v1678471097296!5m2!1spt-BR!2sbr"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+
+        <!-- Contact Section End -->
+
+        <!-- Footer Section Start -->
+        <footer id="footer" class="footer-area section-padding">
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                            <div class="widget">
+                                <h3 class="footer-logo"><img src="assets/img/logo5.png" alt="" width="100%"></h3>
+
+                                <div class="social-icon">
+                                    <a class="facebook" href="https://www.facebook.com/drajessicacarvalhoadvocacia/"><i
+                                            class="fa-brands fa-facebook fa-2x"></i></a>
+                                    <a class="twitter" href="https://wa.me/5585986552515"><i
+                                            class="fa-brands fa-whatsapp fa-2x"></i></a>
+                                    <a class="instagram" href="https://www.instagram.com/jessicacarvalhoadvocacia/"><i
+                                            class="fa-brands fa-instagram fa-2x"></i></a>
+                                    <a class="linkedin"
+                                        href="https://www.linkedin.com/in/jessica-carvalho-barbosa-44060253/?originalSubdomain=br"><i
+                                            class="fa-brands fa-linkedin-in fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <h3 class="footer-titel">Contato</h3>
+                            <ul class="address">
+                                <li>
+                                    <a href="#"><i class="lni-map-marker"></i> Rua Monsenhor Bruno 1157 - <br>Sala
+                                        1107</a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/5585986552515"><i class="lni-phone-handset"></i>(85)
+                                        9.8655-2515</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:jessicacarvalhoadv@gmail.com"><i
+                                            class="lni-envelope"></i>jessicacarvalhoadv@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright-content">
+                                <p><a rel="nofollow" href="">Jéssica Carvalho Advogada</a> - Todos os
+                                    Direitos
+                                    Reservados
+                                </p>
+                                <p>Desenvolvidor por: <a rel="nofollow" href="">EF - Desenvolvedor Web</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+        <!-- Go to Top Link -->
+        <a href="https://api.whatsapp.com/send?phone=5585986552515" target="_blank" class="whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <p class="p2">Entre em contato</p>
+        </a>
+
+
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/js/jquery-min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/jquery.nav.js"></script>
+        <script src="assets/js/scrolling-nav.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/form-validator.min.js"></script>
+        <script src="assets/js/contact-form-script.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/glightbox.min.js"></script>
+        <script src="assets/js/tiny-slider.js"></script>
+
 
 </body>
 
