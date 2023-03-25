@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
 :root {
   --font-family: "Inter", sans-serif;
@@ -104,21 +104,15 @@ a a:focus {
   outline: none;
 }
 
+
+
 p {
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0px;
-  font-size: 14px;
-  color: #f1f1f1;
-
-}
-
-p2 {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
   color: var(--dark-3);
   margin: 0px;
+  text-align: justify;
 }
 
 
@@ -424,7 +418,7 @@ a.back-to-top:focus {
 
 .section-padding3 {
   padding: 100px 0;
-  background-image: url(../img/hero-bg4.jpg);
+  background-image: url(../img/pereto2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -615,11 +609,7 @@ li.section-title4 {
 }
 
 .services-item2 {
-
-  background-image: url(../img/pereto.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #000000;
   padding: 10px;
   border-radius: 100px;
   text-align: center;
@@ -753,7 +743,7 @@ margin-bottom: 10px;
 }
 
 .p2 {
-  margin: 0;
+  margin-top: 13px;
   font-size: 16px;
   font-weight: bold;
   margin-right: 10px;
@@ -766,6 +756,7 @@ margin-bottom: 10px;
   margin-top: 10px;
   margin-right: 5px;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
@@ -1748,7 +1739,7 @@ textarea {
 }
 
 .slider-area .bd-example .carousel .carousel-inner {
-  background-color: #38f9d7;
+  background-color: #000000;
 }
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item {
@@ -1771,6 +1762,9 @@ textarea {
   .slider-area .bd-example .carousel .carousel-inner .carousel-item {
     height: 400px;
   }
+
+
+
 }
 
 .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption {
