@@ -126,10 +126,11 @@
 /* mobile or only mobile */
 @media (max-width: 767px) {
   .section-padding2 {
-    background-image: url(../img/pereto.jpg);
+    background-image: url(../img/cel.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
   }
 
   .services-item2 {
