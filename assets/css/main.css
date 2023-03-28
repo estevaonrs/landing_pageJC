@@ -169,7 +169,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-title {
-  font-size: 30px;
+  font-size: 22px;
   color: #000000;
   display: inline-block;
   font-weight: 700;
@@ -177,17 +177,8 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-title2 {
-  font-size: 18px;
-  color: #333;
-  display: inline-block;
-  font-weight: 500;
-  position: relative;
-  white-space: normal;
-}
-
-.section-title3 {
-  font-size: 30px;
-  color: #ffff;
+  font-size: 22px;
+  color: #fff;
   display: inline-block;
   font-weight: 700;
   position: relative;
@@ -1639,6 +1630,7 @@ textarea {
 
 .about-five-content .main-title {
   margin-top: 20px;
+  font-size: 30px;
 }
 
 .about-five-content .about-five-tab {
@@ -1751,6 +1743,7 @@ textarea {
   .about-image-five::before {
     display: none;
   }
+
 }
 
 .about-image-five img {
@@ -2041,7 +2034,7 @@ textarea {
 
 .portfolio-menu ul li:hover,
 .portfolio-menu ul li.active {
-  color: #38f9d7;
+  color: #000;
 }
 
 .portfolio-menu ul li:hover::before,
@@ -2098,7 +2091,7 @@ textarea {
 
 .single-portfolio .portfolio-image .portfolio-overlay .portfolio-content .portfolio-icon a {
   font-size: 48px;
-  color: #38f9d7;
+  color: #fff;
   position: relative;
   z-index: 5;
   line-height: 50px;
@@ -2138,7 +2131,7 @@ textarea {
 }
 
 .single-portfolio .portfolio-text .portfolio-title a:hover {
-  color: #38f9d7;
+  color: #666666;
 }
 
 .single-portfolio .portfolio-text .text {
@@ -2230,7 +2223,7 @@ textarea {
 
 .testimonial-active-2 .slick-dots li.slick-active button,
 .testimonial-active .slick-dots li.slick-active button {
-  background-color: #38f9d7;
+  background-color: #000;
 }
 
 .single-testimonial-4 {
@@ -2307,5 +2300,5 @@ textarea {
 }
 
 .testimonial-active-4 .slick-dots li.slick-active button {
-  background-color: #38f9d7;
+  background-color: #000;
 }
