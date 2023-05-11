@@ -741,7 +741,7 @@ margin-bottom: 10px;
 }
 
 .top-nav-collapse .navbar-brand img {
-  width: 50%;
+  width: 100%;
 }
 
 .whatsapp {
@@ -1707,6 +1707,12 @@ textarea {
   z-index: 2;
 }
 
+.about-image-five2 {
+  padding-left: 60px;
+  position: relative;
+  z-index: 2;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-image-five {
     margin-bottom: 70px;
@@ -1752,6 +1758,8 @@ textarea {
   width: 100%;
   z-index: 2;
 }
+
+
 
 
 /*===== SLIDER ONE =====*/
